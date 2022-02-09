@@ -1,0 +1,82 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    height: 30px;
+    z-index: 1;
+    
+    
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+      
+}
+.nav__black{
+    background-color: #111; 
+}
+
+.nav__logo{
+    position: fixed;
+    left: 5px;
+    width: 200px;
+    object-fit: contain;
+    top: -18px;
+}
+.c1{
+ color: white;
+ position: fixed;
+ object-fit: contain;
+ left:220px;
+ margin-top: 4px;
+ cursor: pointer;
+
+}
+.c2{
+    color: white;
+    position: fixed;
+    object-fit: contain;
+    left:300px;
+    margin-top: 4px;
+    cursor: pointer;
+    
+   }
+.c3{
+    color: white;
+    position: fixed;
+    object-fit: contain;
+    left:410px;
+    margin-top: 4px;
+    cursor: pointer;
+   }
+.c4{
+    color: white;
+    position: fixed;
+    object-fit: contain;
+    left:500px;
+    margin-top: 4px;
+    cursor: pointer;
+   }
+   .searchicon{
+       color: white;
+       position: fixed;
+    object-fit: contain;
+    margin-top: 4px;
+    right: 150px;
+    cursor: pointer;
+   }
+   .bellicon{
+       color: white;
+       position: fixed;
+       object-fit: contain;
+       margin-top: 4px;
+       right: 100px;
+       cursor: pointer;
+   }
+
+.nav__avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+    cursor: pointer;
+}
